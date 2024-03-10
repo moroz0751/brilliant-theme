@@ -32,7 +32,7 @@
           "foreground": "p:os",
           "background": "p:gray",
           "leading_diamond": "\ue0b6",
-          "template": " {{ if .WSL }}\ue712 on {{ end }}<#fff>{{ .Icon }}</> ",
+          "template": "{{ if .WSL }}\ue712 on {{ end }}<#fff>{{ .Icon }}</> ",
           "properties": {
             "alpine": "\uf300",
             "arch": "\uf303",
