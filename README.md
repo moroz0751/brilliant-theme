@@ -13,17 +13,15 @@ Detects versions for:
 
 ## Preview
 
-### Brilliant Slim
+### Slim
 
 ![Brilliant Slim Preview](brilliant_slim_preview.png)
 
-Normal version shown above.
-
-### Brilliant Tiles
+### Tiles
 
 ![Brilliant Tiles Preview](brilliant_tiles_preview.png)
 
-Warp version shown above. Notice the arrow is absent for this terminal.
+***Note**: Warp version shown above, hence the prompt arrow is absent (for this specific terminal).*
 
 ## Install
 
