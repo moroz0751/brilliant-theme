@@ -13,7 +13,7 @@
     "lavender": "#b4befe",
     "orange": "#ff8644",
     "pink": "#fd7777",
-    "red_muted": "#c8a3ba",
+    "pink_muted": "#cf829e",
     "cmake": "#1e9748",
     "go": "#7fd5ea",
     "node": "#8ed072",
@@ -102,7 +102,7 @@
           "style": "diamond",
           "foreground": "p:cyan",
           "foreground_templates": [
-            "{{ if gt .Code 0 }}p:red_muted{{ end }}"
+            "{{ if gt .Code 0 }}p:pink_muted{{ end }}"
           ],
           "template": " {{ if gt .Code 0 }}\uf00d{{ else }}\uf00c{{ end }} ",
           "properties": {
@@ -114,7 +114,7 @@
           "style": "diamond",
           "foreground": "p:cyan",
           "foreground_templates": [
-            "{{ if gt .Code 0 }}p:red_muted{{ end }}"
+            "{{ if gt .Code 0 }}p:pink_muted{{ end }}"
           ],
           "template": "\uf252 {{ .FormattedMs }} ",
           "properties": {
