@@ -2,24 +2,23 @@
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "version": 2,
   "palette": {
-    "os": "#d6deeb",
-    "text_light": "#e8ecf4",
+    "text_light": "#E8ECF4",
     "text_gray": "#414141",
     "text_dark": "#011627",
-    "blue": "#00c7fc",
-    "cyan": "#1bd4cd",
+    "blue": "#00C7FC",
+    "cyan": "#1BD4CD",
     "gray": "#575656",
-    "green": "#3ced86",
-    "lavender": "#b4befe",
-    "orange": "#ff8644",
-    "pink": "#fd7777",
-    "pink_muted": "#cf829e",
-    "cmake": "#1e9748",
-    "go": "#7fd5ea",
-    "node": "#8ed072",
-    "python": "#ffde57",
-    "ruby": "#ff2957",
-    "rust": "#beb3ab"
+    "green": "#4CE685",
+    "lavender": "#B4BEFE",
+    "orange": "#FF7023",
+    "pink": "#FD7777",
+    "pink_muted": "#CF829E",
+    "cmake": "#1E9748",
+    "go": "#7FD5EA",
+    "node": "#8ED072",
+    "python": "#FFDE57",
+    "ruby": "#FF3662",
+    "rust": "#BEB3AB"
   },
   "blocks": [
     {
@@ -29,7 +28,7 @@
         {
           "type": "text",
           "style": "plain",
-          "foreground": "p:os",
+          "foreground": "p:text_light",
           "template": "⠀"
         }
       ]
@@ -42,7 +41,7 @@
         {
           "type": "os",
           "style": "diamond",
-          "foreground": "p:os",
+          "foreground": "p:text_light",
           "template": "{{ if .WSL }}\ue712 on {{ end }}<#fff>{{ .Icon }}</>",
           "properties": {
             "alpine": "\uf300",
